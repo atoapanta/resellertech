@@ -12,9 +12,7 @@ const App = () => {
     <>
       <Header />
       <div className="landing-page container">
-        <header className="text-center mt-5">
-          <h1 className="display-3 title"></h1>
-        </header>
+        <header className="text-center mt-5"></header>
         <section className="my-5 content-section">
           <div className="row">
             <div className="col-md-6 mb-4 mb-md-0">
