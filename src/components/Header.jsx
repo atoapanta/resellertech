@@ -2,9 +2,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="navbar bg-light opacity-25">
-      <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1">Navbar</span>
+    <nav
+      className="fixed-top navbar opacity-50"
+      style={{ fontFamily: "Titan One" }}
+    >
+      <div className="container">
+        <div className="navbar-brand" href="#">
+          <h1>AT</h1>
+        </div>
       </div>
     </nav>
   );

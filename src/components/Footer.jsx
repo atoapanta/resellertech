@@ -4,17 +4,15 @@ const Footer = () => {
   const fullYear = new Date().getFullYear();
 
   return (
-    <footer className="fixed-bottom footer ">
-      <p className="text-center text-white m-0 py-3">
-        Copyright &copy; {fullYear}
+    <footer className="fixed-bottom">
+      <p className="text-center m-0 py-2">
         <a
-          className="text-white mx-1"
+          className="text-dark"
           href="http://"
           style={{ textDecoration: "none" }}
         >
-          AmbatoTech
+          Copyright &copy; {fullYear} AmbatoTech - All rights reserved.
         </a>
-        - All rights reserved.
       </p>
     </footer>
   );

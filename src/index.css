@@ -1,16 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('assets/back_app.png'); /* Reemplaza con la ruta de tu imagen */
+  background-image: url('assets/back_app.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: 'Mulish';
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
